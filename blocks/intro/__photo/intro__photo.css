@@ -1,0 +1,17 @@
+.intro__photo {
+  min-height: 387px;
+  width: 100%;
+  background-image: url('../../../image/intro1.jpg');
+  margin-top: 50px;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 425px) {
+  .intro__photo {
+    background-image: url('../../../image/intro2.jpg');
+    width: calc(100% - 60px);
+    margin: 0 auto;
+    margin-top: 36px;
+  }
+}

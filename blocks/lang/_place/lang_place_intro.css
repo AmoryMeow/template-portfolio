@@ -1,0 +1,9 @@
+.lang_place_intro {
+  display: block;
+}
+
+@media (max-width: 425px) {
+  .lang_place_intro {
+    display: none;
+  }
+}

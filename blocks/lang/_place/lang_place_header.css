@@ -1,0 +1,12 @@
+.lang_place_header {
+  display: none;
+}
+
+@media (max-width: 425px) {
+  .lang_place_header {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}

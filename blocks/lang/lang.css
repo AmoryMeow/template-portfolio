@@ -1,0 +1,9 @@
+.lang {
+  transform: rotate(-90deg) translateX(25px) translateY(23px);
+}
+
+@media (max-width: 425px) {
+  .lang {
+    transform: rotate(90deg) translateX(-100px) translateY(-24px);
+  }
+}

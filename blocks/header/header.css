@@ -1,0 +1,18 @@
+.header {
+  width: 100%;
+  min-height: 88px;
+  max-width: 940px;
+  margin: 0 auto;
+  border-bottom: #828282 1px solid;
+  box-sizing: border-box;
+}
+
+@media (max-width: 425px) {
+  .header {
+    width: calc(100% - 48px);
+    padding-top: 66px;
+    height: 100vh;
+    border-bottom: 0;
+    display: none;
+  }
+}

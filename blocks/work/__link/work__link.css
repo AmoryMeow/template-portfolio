@@ -1,0 +1,14 @@
+.work__link {
+  text-decoration: none;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 95px;
+  margin-top: 45px;
+}
+
+@media (max-width: 425px) {
+  .work__link {
+    margin-top: 33px;
+    margin-bottom: 77px;
+  }
+}

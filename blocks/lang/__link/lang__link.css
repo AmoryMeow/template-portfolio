@@ -1,0 +1,21 @@
+.lang__link {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: bold;
+  color: #828282;
+  text-decoration: none;
+  border-right: 1px black solid;
+  padding-right: 0.5em;
+}
+
+.lang__link:last-of-type {
+  border-right: 0;
+}
+
+@media (max-width: 425px) {
+  .lang__link {
+    font-size: 34px;
+    line-height: 42px;
+  }
+}

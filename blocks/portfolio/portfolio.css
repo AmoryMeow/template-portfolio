@@ -1,0 +1,13 @@
+.portfolio {
+  padding-top: 112px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #F6F6F6;
+  margin: 0 auto;
+}
+
+@media (max-width: 425px) {
+  .portfolio {
+    padding-top: 81px;
+  }
+}

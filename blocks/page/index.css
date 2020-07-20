@@ -1,0 +1,60 @@
+@import url('../../vendor/normalize.css');
+/*fonts*/
+@import url('../../fonts/Gilroy.css');
+/*header*/
+@import url('../header/header.css');
+@import url('../header/__links/header__links.css');
+@import url('../header/__link/header__link.css');
+@import url('../header/__close-menu/header__close-menu.css');
+@import url('../header/__link/_active/header__link_active.css');
+/*content*/
+@import url('../content/content.css');
+/*intro*/
+@import url('../intro/intro.css');
+@import url('../intro/__open-menu/intro__open-menu.css');
+@import url('../intro/__head/intro__head.css');
+@import url('../intro/__title/intro__title.css');
+@import url('../intro/__subtitle/intro__subtitle.css');
+@import url('../intro/__photo/intro__photo.css');
+/**/
+@import url('../lang/lang.css');
+@import url('../lang/__link/lang__link.css');
+@import url('../lang/__link/_active/lang__link_active.css');
+@import url('../lang/_place/lang_place_header.css');
+@import url('../lang/_place/lang_place_intro.css');
+/*about*/
+@import url('../about/about.css');
+/*section-title*/
+@import url('../section-title/section-title.css');
+/*section-text*/
+@import url('../section-text/section-text.css');
+/*skills*/
+@import url('../skills/skills.css');
+/*cards*/
+@import url('../cards/cards.css');
+@import url('../card/card.css');
+@import url('../card/__title/card__title.css');
+@import url('../card/__image/card__image.css');
+@import url('../card/__level/card__level.css');
+@import url('../card/__star/card__star.css');
+/*portfolio*/
+@import url('../portfolio/portfolio.css');
+/*works*/
+@import url('../works/works.css');
+@import url('../work/work.css');
+@import url('../work/__image/work__image.css');
+@import url('../work/__link/work__link.css');
+/*footer*/
+@import url('../footer/footer.css');
+@import url('../footer/__text/footer__text.css');
+@import url('../footer/__message/footer__message.css');
+@import url('../footer/__links/footer__links.css');
+@import url('../footer/__link/footer__link.css');
+@import url('../footer/__text/footer__text.css');
+
+.page {
+  font-family: 'Gilroy', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscole;
+  margin: 0 auto;
+}

@@ -1,0 +1,7 @@
+.work {
+  margin: 0 auto;
+  max-width: 936px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

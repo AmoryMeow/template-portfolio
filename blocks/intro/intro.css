@@ -1,0 +1,15 @@
+.intro {
+ max-width: 940px;
+ width: 100%;
+ margin: 0 auto;
+ padding-bottom: 105px;
+ box-sizing: border-box;
+ position: relative;
+}
+
+@media (max-width: 425px) {
+  .intro {
+    width: calc(100% - 48px);
+    padding-bottom: 83px;
+  }
+}

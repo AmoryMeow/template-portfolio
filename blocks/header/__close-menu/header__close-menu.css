@@ -1,0 +1,12 @@
+.header__close-menu {
+  display: none;
+}
+
+@media (max-width: 425px) {
+  .header__close-menu {
+    display: block;
+    position: absolute;
+    top: 68px;
+    right: 30px;
+  }
+}

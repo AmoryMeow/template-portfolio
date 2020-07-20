@@ -1,0 +1,16 @@
+.header__links {
+  min-height: 88px;
+  max-width: 940px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, min-content);
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 425px) {
+  .header__links {
+    grid-template-columns: max-content;
+    grid-row-gap: 68px;
+  }
+}

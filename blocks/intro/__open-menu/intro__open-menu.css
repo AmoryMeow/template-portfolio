@@ -1,0 +1,12 @@
+.intro__open-menu {
+  display: none;
+}
+
+@media (max-width: 425px) {
+  .intro__open-menu {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 0;
+  }
+}
